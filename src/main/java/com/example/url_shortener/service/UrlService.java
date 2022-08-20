@@ -37,6 +37,9 @@ public class UrlService {
 
     public String getOriginalUrl(String shortUrl) {
         Url entity = urlRepository.findAll().stream().filter(url -> url.getShortUrl().equals(shortUrl)).findFirst().get();
+        if (entity == null){
+            return "Url dose not exist.";
+        }
         return entity.getLongUrl();
     }
 }
