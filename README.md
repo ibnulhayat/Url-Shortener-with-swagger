@@ -15,10 +15,10 @@ When user opens short url, it will be automatically redirected to original (long
 
 # 1.Create a Spring Boot WAR
   1.1 extended SpringBootServletInitializer this class </br>
-  1.2 Override the Configure method.
-  1.3 Open the pom.xml file and marked the servlet container (Tomcat) as provided.
-  1.4 We need to deploy WAR file so change the package type to WAR in pom.xml file.
-  1.5 Modify the final WAR file name by using the <finalName> tag to avoid including the version numbers. We have created a WAR file with the name url-shortener.
+  1.2 Override the Configure method. </br>
+  1.3 Open the pom.xml file and marked the servlet container (Tomcat) as provided. </br>
+  1.4 We need to deploy WAR file so change the package type to WAR in pom.xml file. </br>
+  1.5 Modify the final WAR file name by using the <finalName> tag to avoid including the version numbers. We have created a WAR file with the name url-shortener. </br>
   1.6 Editor right side you see Meven click this and then show your project name then click and see Lifecycle than again click and see package and than double click on the package then hold a minite and create a war file in target folder then see war file and this file deploy on the Apache tomcat sever. 
 
 
