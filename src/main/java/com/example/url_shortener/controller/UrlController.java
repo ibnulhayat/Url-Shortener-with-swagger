@@ -4,13 +4,7 @@ package com.example.url_shortener.controller;
 import com.example.url_shortener.model.UrlLongRequestDto;
 import com.example.url_shortener.service.UrlService;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.net.URI;
-import java.net.URISyntaxException;
 
 @RestController
 @RequestMapping(value ="/api")
