@@ -14,7 +14,7 @@ When user opens short url, it will be automatically redirected to original (long
 # Project deployment documentation
 
 # 1.Create a Spring Boot WAR
-  1.1 extended SpringBootServletInitializer this class
+  1.1 extended SpringBootServletInitializer this class </br>
   1.2 Override the Configure method.
   1.3 Open the pom.xml file and marked the servlet container (Tomcat) as provided.
   1.4 We need to deploy WAR file so change the package type to WAR in pom.xml file.
