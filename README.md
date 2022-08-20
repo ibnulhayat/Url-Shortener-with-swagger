@@ -11,9 +11,9 @@ When user opens short url, it will be automatically redirected to original (long
 # GET Method (Short url to long url)
   when user click the short url then it call a get method and this get method collect the short token code and search this code in data base and return main url/ long url if dosen't match short token then return exeption, this url not available or vaid.
   
-#Project deployment documentation
+# Project deployment documentation
 
-#1.Create a Spring Boot WAR
+# 1.Create a Spring Boot WAR
   1.1 extended SpringBootServletInitializer this class
   1.2 Override the Configure method.
   1.3 Open the pom.xml file and marked the servlet container (Tomcat) as provided.
